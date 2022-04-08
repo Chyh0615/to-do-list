@@ -1,0 +1,61 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body {
+    background-image: linear-gradient(315deg, #fad0c4 0%, #cb99c9 74%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 500px;
+    width: 400px;
+    background: #dde1e7;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+p {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+#input {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+li {
+    margin: 8px 0;
+    padding: 10px;
+    height: 40px;
+    position: relative;
+    background: #b0c4de;
+    color: #333;
+    border-radius: 5px;
+    list-style-type: none;
+}
+ul .fa-trash, .fa-circle-check {
+    position: absolute;
+    cursor: pointer;
+}
+ul .fa-circle-check {
+    right: 40px;
+}
+ul .fa-trash {
+    right: 10px;
+}
+ul .check {
+    background: #ffa07a;
+    text-decoration: line-through;
+    transition: 0.4s linear;
+}
